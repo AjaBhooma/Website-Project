@@ -1,0 +1,177 @@
+<!DOCTYPE html> <html><head>
+        <title>Website Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Times New Roman, Helvetica, sans-serif;
+                margin: 1;
+            }
+
+            .header {
+                padding: 100px;
+                text-align: center;
+                background: #9FA2B2;
+                color: black;
+            }
+
+            /* Increase the font size of the h1 element */
+            .header h1 {
+                font-size: 40px;
+            }
+
+            /* Style the top navigation bar */
+            .navbar {
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            /* Style the navigation bar links */
+            .navbar a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+
+            /* Right-aligned link */
+            .navbar a.right {
+                float: right;
+            }
+
+            /* Change color on hover */
+            .navbar a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            /* Column container */
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            /* Create two unequal columns that sits next to each other */
+            /* Sidebar/left column */
+            .side {
+                flex: 30%;
+                background-color: #f1f1f1;
+                padding: 20px;
+            }
+
+            /* Main column */
+            .main {
+                flex: 70%;
+                background-color: white;
+                padding: 20px;
+            }
+
+            /* Fake image, just for this example */
+            .fakeimg {
+                background-color: #aaa;
+                width: 100%;
+                padding: 20px;
+            }
+
+            /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 700px) {
+                .row {
+                    flex-direction: column;
+                }
+            }
+
+            /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+            @media screen and (max-width: 400px) {
+                .navbar a {
+                    float: none;
+                    width: 100%;
+                }
+            }
+        </style>
+    <style>.img1{
+    width: 197px;
+
+}
+
+.img2{
+    width: 450px;
+
+}
+
+.artists{
+    width:197px;
+
+}
+
+</style></head>
+    <body>
+        <div class="header">
+
+
+            <h1>Aja
+                <br>
+                Bhooma
+             
+
+            </h1>
+
+
+
+
+
+        </div>
+
+        <div class="navbar">
+            <a target="_blank" href="https://www.instagram.com/ajacelui/">Instagram</a>
+            <a target="_blank" href="https://docs.google.com/document/d/100GN3HePlhfj9IF46lMSkmgcBR3mr7wKFZhO35TXtl0/edit?usp=sharing">Resume</a>
+            
+            <a target="_blank" href="https://www.linkedin.com/in/ajabee/" class="right">LinkedIn</a>
+            
+        </div>
+
+        <div class="row">
+            <div class="side">
+                <h2>About Aja</h2>
+                
+                <p>I am a rising Junior at KIPP San Francisco College Preparatory. In 5 years, I want to be 				graduating college at either UCLA or NYU.</p>
+                <p>My favorite hobbies are watching tv and hanging out with my friends.</p>
+                <div class="image" style="height:200"> <img src="https://images.unsplash.com/photo-1577979749830-f1d742b96791?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2F0Y2hpbmclMjB0dnxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.2.1&amp;w=1000&amp;q=80" class="img1"></div> 
+                
+                <p> </p>
+                <h3>Favorite Musicians</h3>
+                <p>XXXtentacion</p>
+                <a target="_blank" href="https://www.youtube.com/watch?v=eEYO0rKL6vk"> <img src="https://i.pinimg.com/originals/7d/b3/03/7db30306c714f7b21d9148702c289d05.gif" class="artists"> </a>
+                <p>Lil Uzi Vert</p>
+                <a target="_blank" href="https://www.youtube.com/watch?v=WrsFXgQk5UI">  <img src="https://media3.giphy.com/media/IdQv10eK62sZJYTT0G/200.webp" class="artists"> </a>
+                <p>Doja Cat</p>
+                <a target="_blank" href="https://www.youtube.com/watch?v=ZRHHOttkM1A"> <img src="https://api.time.com/wp-content/uploads/2020/09/time100-next-Doja-Cat.jpg?w=800&amp;quality=85" class="artists"> </a>
+            </div>
+            <div class="main">
+                <h2>Favorite show</h2>
+                <h5><em> Bojack Horseman</em> </h5>
+                <div class="main">
+                    <div class="image"><img src="https://lh3.googleusercontent.com/proxy/wTH1bBsijOOOX3RqchcuTkCsaLGQ75qIZEbgeLJDaPHG0-_1udLRNgBwPuAtOT6Gle4jIDNl8eD1yywYSJbtD85Dza4ClkumSyVLuYo8YlR0fcM" class="img2"> </div></div>
+                
+                <p>Meet the most beloved sitcom horse of the '90s, 20 years later. He’s a curmudgeon with a heart of...not quite gold...but something like gold. Copper?</p>
+                <p>Starring:Will Arnett, Aaron Paul, Amy Sedaris
+Creators:Raphael Bob-Waksberg</p>
+                <br>
+                <h2>Resume</h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <div class="fakeimg" style="height:200px;">Image</div>
+                <p>Some text..</p>
+                <p>More text </p>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>Thank You!</h2>
+        </div>
+
+    
+</body></html>
